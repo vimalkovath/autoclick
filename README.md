@@ -13,7 +13,7 @@ o.click();
 
 
 
-## auto click with randon time
+## auto click with randon time 
 
 function myFuck() {
 var o=document.querySelector('[aria-label=Like]');

@@ -15,13 +15,16 @@ o.click();
 
 ## auto click with randon time 
 
+`
 function myFuck() {
 var o=document.querySelector('[aria-label=Like]');
 o.click();
-  var min = 3,
+  var min = 5,
     max = 10;
 
   var rand = Math.floor(Math.random() * (max - min + 1) + min); 
   setTimeout(myFuck, rand * 1000);
 }
+
 myFuck();
+`
